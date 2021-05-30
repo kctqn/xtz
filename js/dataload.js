@@ -16,7 +16,7 @@ $(document).ready(function() {
       };
   
       const getData = async () => {
-        fetch('https://api.teztools.io/token/prices.json')
+        fetch('https://github.com/kctqn/xtz/blob/main/communitydata/prices.json')
         .then(function (response) {
           return response.json();
         })
